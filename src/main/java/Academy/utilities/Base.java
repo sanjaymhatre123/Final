@@ -26,29 +26,27 @@ public class Base {
 		String Browser = pro.getProperty("browser");
 		URL = pro.getProperty("url");
 
-		switch(Browser) {
-		  case "chrome":
-		    // code block
-			  
-			  System.setProperty("webdriver.chrome.driver", pro.getProperty("chromedriverpath"));
-				driver = new ChromeDriver();
-		    break;
-		  case "firefox":
-		    // code block
-			  
-			  System.setProperty("webdriver.gecko.driver", pro.getProperty("firefoxdriverpath"));
-				driver = new FirefoxDriver();
-		    break;
-		  default:
-			  System.setProperty("webdriver.ie.driver", pro.getProperty("iedriverpath"));
+		switch (Browser) {
+		case "chrome":
+			// code block
 
-				driver = new InternetExplorerDriver();
+			System.setProperty("webdriver.chrome.driver", pro.getProperty("chromedriverpath"));
+			driver = new ChromeDriver();
+			break;
+		case "firefox":
+			// code block
+
+			System.setProperty("webdriver.gecko.driver", pro.getProperty("firefoxdriverpath"));
+			driver = new FirefoxDriver();
+			break;
+		default:
+			System.setProperty("webdriver.ie.driver", pro.getProperty("iedriverpath"));
+
+			driver = new InternetExplorerDriver();
 		}
-		
-		
-		
-		
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 
 		return driver;
