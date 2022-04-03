@@ -14,14 +14,11 @@ public class RegisterFillPF {
 
 	}
 
-	
 	By gender = By.xpath("//input[@id='id_gender1']");
 
 	public WebElement Genderid() {
 
 		return driver.findElement(gender);
 	}
-
-	
 
 }

@@ -22,9 +22,6 @@ public class LoginPagePF {
 
 	@FindBy(how = How.CSS, using = "a[class='login']")
 	WebElement login;
-	
-	
-	
 
 	public WebElement LoginBtn() {
 
