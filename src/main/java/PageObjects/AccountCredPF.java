@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPagePF {
+public class AccountCredPF {
 
 	public WebDriver driver;
 
-	public LoginPagePF(WebDriver driver) {
+	public AccountCredPF(WebDriver driver) {
 
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -20,15 +20,28 @@ public class LoginPagePF {
 
 	// By url = By.linkText("Sign in");
 
-	@FindBy(how = How.CSS, using = "a[class='login']")
-	WebElement login;
-	
-	
-	
+	@FindBy(id = "email")
+	WebElement email;
 
-	public WebElement LoginBtn() {
+	@FindBy(name = "passwd")
+	WebElement password;
 
-		return login;
+	@FindBy(how = How.CSS, using = "button[name='SubmitLogin']")
+	WebElement submit;
+
+	public WebElement userName() {
+
+		return email;
+	}
+
+	public WebElement pwd() {
+
+		return password;
+	}
+
+	public WebElement go() {
+
+		return submit;
 	}
 
 }

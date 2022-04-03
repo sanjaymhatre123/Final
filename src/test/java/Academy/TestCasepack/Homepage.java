@@ -7,11 +7,12 @@ import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.Test;
 
 import Academy.utilities.Base;
+import PageObjects.AccountCredPF;
 import PageObjects.LoginPagePF;
 import PageObjects.RegisterFillPF;
 import PageObjects.RegisterPF;
 
-public class LandingPage extends Base {
+public class Homepage extends Base {
 
 	@Test
 
@@ -24,6 +25,13 @@ public class LandingPage extends Base {
 
 		LoginPagePF l = new LoginPagePF(driver);
 		l.LoginBtn().click();
+		
+		AccountCredPF ac=new AccountCredPF(driver);
+		ac.userName().sendKeys("123");
+		ac.pwd().sendKeys("456");
+		ac.go().click();
+		
+		/*
 		RegisterPF r = new RegisterPF(driver);
 		r.RegisteranEmail().sendKeys("vin@test.com");
 		r.createAccount().click();
@@ -33,6 +41,8 @@ public class LandingPage extends Base {
 		
 		RegisterFillPF rf= new RegisterFillPF(driver);
 		rf.Genderid().click();
+		
+		*/
 
 	}
 

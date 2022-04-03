@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-03T14:41:50Z" name="Default suite" finished-at="2022-04-03T14:42:04Z" duration-ms="13772">
+  <suite started-at="2022-04-03T19:31:13Z" name="Default suite" finished-at="2022-04-03T19:31:33Z" duration-ms="19786">
     <groups>
     </groups>
-    <test started-at="2022-04-03T14:41:50Z" name="Default test" finished-at="2022-04-03T14:42:04Z" duration-ms="13772">
-      <class name="Academy.TestCasepack.LandingPage">
-        <test-method signature="testc()[pri:0, instance:Academy.TestCasepack.LandingPage@5117dd67]" started-at="2022-04-03T14:41:50Z" name="testc" finished-at="2022-04-03T14:42:04Z" duration-ms="13758" status="PASS">
+    <test started-at="2022-04-03T19:31:13Z" name="Default test" finished-at="2022-04-03T19:31:33Z" duration-ms="19786">
+      <class name="Academy.TestCasepack.Homepage">
+        <test-method signature="testc()[pri:0, instance:Academy.TestCasepack.Homepage@5117dd67]" started-at="2022-04-03T19:31:13Z" name="testc" finished-at="2022-04-03T19:31:33Z" duration-ms="19767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testc -->
-      </class> <!-- Academy.TestCasepack.LandingPage -->
+      </class> <!-- Academy.TestCasepack.Homepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
