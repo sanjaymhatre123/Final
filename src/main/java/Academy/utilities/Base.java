@@ -43,7 +43,7 @@ public class Base {
 			System.setProperty("webdriver.ie.driver", "D:\\TestJava\\IEDriverExePath\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;
 

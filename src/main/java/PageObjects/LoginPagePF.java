@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPagePF {
 
@@ -12,18 +14,18 @@ public class LoginPagePF {
 	public LoginPagePF(WebDriver driver) {
 
 		this.driver = driver;
+		PageFactory.initElements(driver, this);
 
 	}
 
-	//By url = By.linkText("Sign in");
-	
-	
-	@FindBy  (linkText ="Sign in")
-	WebElement url;
+	// By url = By.linkText("Sign in");
 
-	public WebElement Link() {
+	@FindBy(how = How.CSS, using = "a[class='login']")
+	WebElement login;
 
-		return url;
+	public WebElement LoginBtn() {
+
+		return login;
 	}
 
 }

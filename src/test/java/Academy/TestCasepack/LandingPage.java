@@ -23,7 +23,7 @@ public class LandingPage extends Base {
 		driver.get(URL);
 
 		LoginPagePF l = new LoginPagePF(driver);
-		l.Link().click();
+		l.LoginBtn().click();
 		RegisterPF r = new RegisterPF(driver);
 		r.RegisteranEmail().sendKeys("vin@test.com");
 		r.createAccount().click();
