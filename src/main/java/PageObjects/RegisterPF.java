@@ -3,6 +3,8 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
 public class RegisterPF {
 
@@ -14,17 +16,27 @@ public class RegisterPF {
 
 	}
 
-	By registerEmail = By.cssSelector("input[id='email_create']");
-	By account = By.xpath("//button[@id='SubmitCreate']");
+	//By registerEmail = By.cssSelector("input[id='email_create']");
+	
+
+	
+	@FindBy(how = How.CSS, using = "input[id='email_create']") 
+	WebElement registerEmail;
+	
+	
+	// By account = By.xpath("//button[@id='SubmitCreate']");
+	
+	@FindBy(xpath = "//button[@id='SubmitCreate']")
+	WebElement account;
 
 	public WebElement RegisteranEmail() {
 
-		return driver.findElement(registerEmail);
+		return registerEmail;
 	}
 
 	public WebElement createAccount() {
 
-		return driver.findElement(account);
+		return account;
 	}
 
 }
