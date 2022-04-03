@@ -28,19 +28,23 @@ public class Base {
 
 		if (Browser.equalsIgnoreCase("chrome")) {
 			// code for Chrome
-			System.setProperty("webdriver.chrome.driver", "D:\\TestJava\\chromedriverexepath\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "D:\\TestJava\\chromedriverexepath\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", pro.getProperty("chromedriverpath"));
 			driver = new ChromeDriver();
 
 		} else if (Browser.equalsIgnoreCase("firefox")) {
 			// code for Firefox
 
-			System.setProperty("webdriver.gecko.driver", "D:\\TestJava\\FireFoxDriverexePath\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", "D:\\TestJava\\FireFoxDriverexePath\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", pro.getProperty("firefoxdriverpath"));
 			driver = new FirefoxDriver();
 
 		} else {
 
 			// code for ie driver
-			System.setProperty("webdriver.ie.driver", "D:\\TestJava\\IEDriverExePath\\IEDriverServer.exe");
+			//System.setProperty("webdriver.ie.driver", "D:\\TestJava\\IEDriverExePath\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", pro.getProperty("iedriverpath"));
+			
 			driver = new InternetExplorerDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
