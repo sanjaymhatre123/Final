@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
 
 	<Properties>
@@ -23,12 +23,7 @@
 		<Root level="trace">
 			<AppenderRef ref="File" />
 		</Root>
-
-
-
-		<Logger name="Alpha.Demo" level="error" additivity="false">
-			<AppenderRef ref="Console" />
-		</Logger>
+		
 
 	</Loggers>
 </Configuration>

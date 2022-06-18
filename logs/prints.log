@@ -1,14 +1,17 @@
-13:09:53.903 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
-13:09:57.042 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
-13:09:57.042 [main] INFO  Academy.TestCasepack.Homepage - getting the url
-13:10:03.263 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
-13:10:05.864 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
-13:10:06.175 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-13:10:07.662 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
-13:10:07.668 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
-13:10:09.889 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
-13:10:09.890 [main] INFO  Academy.TestCasepack.Homepage - getting the url
-13:10:15.849 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
-13:10:18.290 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
-13:10:18.716 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-13:10:20.128 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+19:52:56.369 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
+19:52:56.682 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+19:52:58.991 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+19:57:43.052 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+19:57:47.535 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+19:57:47.536 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+19:57:53.835 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+19:57:56.244 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
+19:57:56.599 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+19:57:58.505 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+19:57:58.507 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+19:58:01.064 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+19:58:01.064 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+19:58:08.670 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+19:58:11.457 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
+19:58:11.877 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+19:58:13.833 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
