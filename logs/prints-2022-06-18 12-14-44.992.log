@@ -1,0 +1,25 @@
+12:09:54.730 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+12:09:58.593 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+12:09:58.595 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+12:10:06.001 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+12:10:08.663 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
+12:10:09.179 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+12:10:10.736 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+12:10:10.744 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+12:10:13.290 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+12:10:13.291 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+12:10:20.107 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+12:10:22.477 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
+12:10:22.984 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+12:10:24.843 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+12:14:18.575 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+12:14:22.114 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+12:14:22.114 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+12:14:28.707 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+12:14:30.829 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
+12:14:31.198 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+12:14:33.871 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+12:14:33.878 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+12:14:36.253 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+12:14:36.253 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+12:14:42.611 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page

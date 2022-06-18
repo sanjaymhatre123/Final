@@ -1,0 +1,3 @@
+12:14:44.985 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
+12:14:45.452 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+12:14:47.326 [main] INFO  Academy.TestCasepack.Homepage - closing the browser

@@ -5,7 +5,7 @@
     <classes>
       <class name="Academy.TestCasepack.Homepage">
         <methods>
-          <include name="testc"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
         </methods>
       </class> <!-- Academy.TestCasepack.Homepage -->
     </classes>

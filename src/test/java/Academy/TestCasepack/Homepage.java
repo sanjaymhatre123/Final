@@ -2,6 +2,8 @@ package Academy.TestCasepack;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.DataProvider;
@@ -14,17 +16,24 @@ import PageObjects.RegisterFillPF;
 import PageObjects.RegisterPF;
 
 public class Homepage extends Base {
+	
+	private static Logger log= LogManager.getLogger(Homepage.class.getName());
 
 	@Test(dataProvider = "dp")
 
 	public void basePageNavigation(String username, String password, String text) throws IOException {
 
+		
+		log.info("initlizing driver");
 		driver = intializeDriver();
 
 		// driver.get("http://automationpractice.com/index.php");
+		log.info("driver initilized successfully");
+		log.info("getting the url");
 		driver.get(URL);
 
 		LoginPagePF l = new LoginPagePF(driver);
+		log.info("navigated to home page");
 		l.LoginBtn().click();
 
 		AccountCredPF ac = new AccountCredPF(driver);
@@ -32,12 +41,16 @@ public class Homepage extends Base {
 		/*
 		 * ac.userName().sendKeys("123"); ac.pwd().sendKeys("456"); ac.go().click();
 		 */
+		
+		log.info("sending username and password for :"  + username );
 
 		ac.userName().sendKeys(username);
 		ac.pwd().sendKeys("password");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,400)");
+		log.info("scrolling");
 		System.out.println(text);
+		
 		ac.go().click();
 
 		/*
@@ -51,6 +64,9 @@ public class Homepage extends Base {
 		 * 
 		 */
 
+		
+		driver.close();
+		log.info("closing the browser");
 	}
 
 	@DataProvider(name = "dp")
