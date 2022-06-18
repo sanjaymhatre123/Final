@@ -1,3 +1,14 @@
-12:14:44.985 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
-12:14:45.452 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-12:14:47.326 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+13:09:53.903 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+13:09:57.042 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+13:09:57.042 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+13:10:03.263 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+13:10:05.864 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
+13:10:06.175 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+13:10:07.662 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+13:10:07.668 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+13:10:09.889 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+13:10:09.890 [main] INFO  Academy.TestCasepack.Homepage - getting the url
+13:10:15.849 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
+13:10:18.290 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
+13:10:18.716 [main] INFO  Academy.TestCasepack.Homepage - scrolling
+13:10:20.128 [main] INFO  Academy.TestCasepack.Homepage - closing the browser

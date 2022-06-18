@@ -17,7 +17,7 @@ import PageObjects.RegisterPF;
 
 public class Homepage extends Base {
 	
-	private static Logger log= LogManager.getLogger(Homepage.class.getName());
+	  private static final Logger log = LogManager.getLogger((Homepage.class.getName()));
 
 	@Test(dataProvider = "dp")
 
