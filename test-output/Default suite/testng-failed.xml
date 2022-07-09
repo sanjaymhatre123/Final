@@ -6,6 +6,8 @@
       <class name="Academy.TestCasepack.Homepage">
         <methods>
           <include name="basePageNavigation" invocation-numbers="1"/>
+          <include name="closeDriver"/>
+          <include name="initilization"/>
         </methods>
       </class> <!-- Academy.TestCasepack.Homepage -->
     </classes>

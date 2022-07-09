@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-18T14:27:43Z" name="Suite" finished-at="2022-06-18T14:28:13Z" duration-ms="30826">
+  <suite name="Suite" duration-ms="17703" started-at="2022-06-19T19:48:14Z" finished-at="2022-06-19T19:48:31Z">
     <groups>
     </groups>
-    <test started-at="2022-06-18T14:27:43Z" name="Test" finished-at="2022-06-18T14:28:13Z" duration-ms="30826">
+    <test name="Test" duration-ms="17703" started-at="2022-06-19T19:48:14Z" finished-at="2022-06-19T19:48:31Z">
       <class name="Academy.TestCasepack.Homepage">
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.TestCasepack.Homepage@7829b776]" started-at="2022-06-18T14:27:43Z" name="basePageNavigation" data-provider="dp" finished-at="2022-06-18T14:27:58Z" duration-ms="15466" status="PASS">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:Academy.TestCasepack.Homepage@72bc6553]" name="initilization" is-config="true" duration-ms="2520" started-at="2022-06-19T19:48:14Z" finished-at="2022-06-19T19:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.TestCasepack.Homepage@72bc6553]" name="basePageNavigation" duration-ms="9966" started-at="2022-06-19T19:48:16Z" data-provider="dp" finished-at="2022-06-19T19:48:26Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.TestCasepack.Homepage@7829b776]" started-at="2022-06-18T14:27:58Z" name="basePageNavigation" data-provider="dp" finished-at="2022-06-18T14:28:13Z" duration-ms="15327" status="PASS">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.TestCasepack.Homepage@72bc6553]" name="basePageNavigation" duration-ms="4939" started-at="2022-06-19T19:48:26Z" data-provider="dp" finished-at="2022-06-19T19:48:31Z">
           <params>
             <param index="0">
               <value>
@@ -49,6 +53,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Academy.TestCasepack.Homepage@72bc6553]" name="closeDriver" is-config="true" duration-ms="252" started-at="2022-06-19T19:48:31Z" finished-at="2022-06-19T19:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
       </class> <!-- Academy.TestCasepack.Homepage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

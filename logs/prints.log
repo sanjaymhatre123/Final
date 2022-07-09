@@ -1,17 +1,23 @@
-19:52:56.369 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
-19:52:56.682 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-19:52:58.991 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
-19:57:43.052 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
-19:57:47.535 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
-19:57:47.536 [main] INFO  Academy.TestCasepack.Homepage - getting the url
-19:57:53.835 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
-19:57:56.244 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :vin@test.com
-19:57:56.599 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-19:57:58.505 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
-19:57:58.507 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
-19:58:01.064 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
-19:58:01.064 [main] INFO  Academy.TestCasepack.Homepage - getting the url
-19:58:08.670 [main] INFO  Academy.TestCasepack.Homepage - navigated to home page
-19:58:11.457 [main] INFO  Academy.TestCasepack.Homepage - sending username and password for :qa@test.com
-19:58:11.877 [main] INFO  Academy.TestCasepack.Homepage - scrolling
-19:58:13.833 [main] INFO  Academy.TestCasepack.Homepage - closing the browser
+01:18:04.390 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+01:18:07.524 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+01:18:12.052 [main] INFO  PageObjects.LoginPagePF - got the url
+01:18:12.052 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+01:18:15.950 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+01:18:15.951 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+01:18:16.099 [main] INFO  PageObjects.AccountCredPF - scrolling
+01:18:17.852 [main] INFO  PageObjects.AccountCredPF - closing the browser
+01:18:20.208 [main] INFO  PageObjects.LoginPagePF - got the url
+01:18:20.208 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+01:18:30.583 [main] INFO  Academy.TestCasepack.Homepage - closed the browser
+16:27:52.555 [main] INFO  PageObjects.LoginPagePF - got the url
+16:27:52.622 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:27:55.212 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:30:50.195 [main] INFO  PageObjects.LoginPagePF - got the url
+16:30:50.266 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:30:52.625 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:32:34.343 [main] INFO  PageObjects.LoginPagePF - got the url
+16:32:34.357 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:32:37.133 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:32:37.149 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+16:32:37.356 [main] INFO  PageObjects.AccountCredPF - scrolling
+16:32:39.700 [main] INFO  PageObjects.AccountCredPF - closing the browser

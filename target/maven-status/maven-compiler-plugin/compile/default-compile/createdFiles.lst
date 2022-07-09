@@ -1,0 +1,6 @@
+Academy\utilities\Base.class
+Academy\utilities\Base2.class
+PageObjects\AccountCredPF.class
+PageObjects\RegisterPF.class
+PageObjects\RegisterFillPF.class
+PageObjects\LoginPagePF.class

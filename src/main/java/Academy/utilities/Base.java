@@ -23,6 +23,9 @@ public class Base {
 	
 	
 
+
+
+
 	public WebDriver intializeDriver() throws IOException {
 
 		Properties pro = new Properties();
