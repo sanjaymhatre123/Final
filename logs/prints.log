@@ -1,3 +1,9 @@
-21:23:05.842 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
-21:23:05.919 [main] INFO  PageObjects.AccountCredPF - scrolling
-21:23:08.177 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:53:03.891 [main] INFO  PageObjects.LoginPagePF - got the url
+21:53:03.895 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:53:08.249 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:53:08.251 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+21:53:08.339 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:53:11.327 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:53:12.964 [main] INFO  PageObjects.LoginPagePF - got the url
+21:53:12.965 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:53:23.983 [main] INFO  Academy.TestCasepack.Homepage - closed the browser

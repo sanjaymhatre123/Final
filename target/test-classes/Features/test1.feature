@@ -13,5 +13,3 @@ Examples:
 |qa@test.com       |bad@123#      |
 |vin@test.com      |Sanjay123#    |
 |vin@test1.com     |Sanjay123#    |
-
-
