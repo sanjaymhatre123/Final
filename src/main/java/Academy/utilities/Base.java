@@ -39,6 +39,8 @@ public class Base {
 		switch (Browser) {
 		case "chrome":
 			// code block
+			
+			//System.setProperty("webdriver.chrome.driver","D:\\Downloads\\chromedriver_win32\\chromedriver.exe");
 
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

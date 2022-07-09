@@ -1,0 +1,27 @@
+21:21:34.171 [main] INFO  PageObjects.LoginPagePF - got the url
+21:21:34.179 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:21:36.765 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:21:36.768 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+21:21:36.849 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:21:37.940 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:21:47.997 [main] INFO  PageObjects.LoginPagePF - got the url
+21:21:47.997 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:21:50.014 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:21:50.015 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+21:21:50.083 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:21:51.688 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:22:36.454 [main] INFO  PageObjects.LoginPagePF - got the url
+21:22:36.458 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:22:38.415 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:22:38.418 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+21:22:38.507 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:22:39.999 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:22:49.537 [main] INFO  PageObjects.LoginPagePF - got the url
+21:22:49.537 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:22:51.926 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:22:51.927 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+21:22:52.005 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:22:54.055 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:23:03.661 [main] INFO  PageObjects.LoginPagePF - got the url
+21:23:03.661 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:23:05.842 [main] INFO  PageObjects.LoginPagePF - clicking on login page

@@ -1,0 +1,27 @@
+01:18:04.390 [main] INFO  Academy.TestCasepack.Homepage - initlizing driver
+01:18:07.524 [main] INFO  Academy.TestCasepack.Homepage - driver initilized successfully
+01:18:12.052 [main] INFO  PageObjects.LoginPagePF - got the url
+01:18:12.052 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+01:18:15.950 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+01:18:15.951 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+01:18:16.099 [main] INFO  PageObjects.AccountCredPF - scrolling
+01:18:17.852 [main] INFO  PageObjects.AccountCredPF - closing the browser
+01:18:20.208 [main] INFO  PageObjects.LoginPagePF - got the url
+01:18:20.208 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+01:18:30.583 [main] INFO  Academy.TestCasepack.Homepage - closed the browser
+16:27:52.555 [main] INFO  PageObjects.LoginPagePF - got the url
+16:27:52.622 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:27:55.212 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:30:50.195 [main] INFO  PageObjects.LoginPagePF - got the url
+16:30:50.266 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:30:52.625 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:32:34.343 [main] INFO  PageObjects.LoginPagePF - got the url
+16:32:34.357 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+16:32:37.133 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+16:32:37.149 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+16:32:37.356 [main] INFO  PageObjects.AccountCredPF - scrolling
+16:32:39.700 [main] INFO  PageObjects.AccountCredPF - closing the browser
+17:48:33.765 [main] INFO  PageObjects.LoginPagePF - got the url
+17:48:33.794 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+17:48:38.238 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+17:48:38.362 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com

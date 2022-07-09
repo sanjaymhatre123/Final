@@ -1,0 +1,28 @@
+17:48:39.353 [main] INFO  PageObjects.AccountCredPF - scrolling
+17:48:42.415 [main] INFO  PageObjects.AccountCredPF - closing the browser
+17:48:57.503 [main] INFO  PageObjects.LoginPagePF - got the url
+17:48:57.504 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+17:52:24.580 [main] INFO  PageObjects.LoginPagePF - got the url
+17:52:24.586 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+17:52:25.087 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+17:52:25.199 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+17:52:37.862 [main] INFO  PageObjects.LoginPagePF - got the url
+17:52:37.862 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+17:59:53.047 [main] INFO  PageObjects.LoginPagePF - got the url
+17:59:53.054 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+17:59:56.541 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+17:59:56.755 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+17:59:57.201 [main] INFO  PageObjects.AccountCredPF - scrolling
+18:00:00.982 [main] INFO  PageObjects.AccountCredPF - closing the browser
+18:00:11.425 [main] INFO  PageObjects.LoginPagePF - got the url
+18:00:11.426 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+18:03:47.757 [main] INFO  PageObjects.LoginPagePF - got the url
+18:03:47.762 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+18:03:55.759 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+18:03:55.774 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+18:03:56.481 [main] INFO  PageObjects.AccountCredPF - scrolling
+18:03:59.661 [main] INFO  PageObjects.AccountCredPF - closing the browser
+18:04:10.490 [main] INFO  PageObjects.LoginPagePF - got the url
+18:04:10.490 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+18:07:16.018 [main] INFO  PageObjects.LoginPagePF - got the url
+18:07:16.024 [main] INFO  PageObjects.LoginPagePF - navigated to home page

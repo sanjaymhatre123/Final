@@ -1,0 +1,28 @@
+18:56:41.312 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+18:56:41.474 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+18:56:42.050 [main] INFO  PageObjects.AccountCredPF - scrolling
+18:56:45.606 [main] INFO  PageObjects.AccountCredPF - closing the browser
+20:51:56.328 [main] INFO  PageObjects.LoginPagePF - got the url
+20:51:56.334 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+20:52:00.454 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+20:52:00.459 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+20:52:00.925 [main] INFO  PageObjects.AccountCredPF - scrolling
+20:52:04.384 [main] INFO  PageObjects.AccountCredPF - closing the browser
+20:52:16.438 [main] INFO  PageObjects.LoginPagePF - got the url
+20:52:16.438 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+20:54:10.449 [main] INFO  PageObjects.LoginPagePF - got the url
+20:54:10.454 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+20:54:13.126 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+20:54:13.130 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+20:54:13.379 [main] INFO  PageObjects.AccountCredPF - scrolling
+20:54:16.330 [main] INFO  PageObjects.AccountCredPF - closing the browser
+20:54:27.933 [main] INFO  PageObjects.LoginPagePF - got the url
+20:54:27.933 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+20:58:14.701 [main] INFO  PageObjects.LoginPagePF - got the url
+20:58:14.706 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+20:58:17.465 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+20:58:17.469 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+20:58:17.734 [main] INFO  PageObjects.AccountCredPF - scrolling
+20:58:18.995 [main] INFO  PageObjects.AccountCredPF - closing the browser
+20:58:28.911 [main] INFO  PageObjects.LoginPagePF - got the url
+20:58:28.912 [main] INFO  PageObjects.LoginPagePF - navigated to home page

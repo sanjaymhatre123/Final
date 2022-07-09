@@ -22,19 +22,20 @@ public class StepDefination extends Base {
         
     }
 
-    @When("^entering \"([^\"]*)\" and \"([^\"]*)\"$")
-    public void entering_something_and_something(String username, String pwd) throws Throwable {
+	@When("^entering (.+) and (.+)$")
+    public void entering_and(String username, String password) throws Throwable {
 
 		AccountCredPF ac = new AccountCredPF(driver);
-		ac.login(username, pwd);
+		ac.login(username, password);
     	
-    	System.out.println("You are in logging for username : "+ username + " and having password : "+ pwd );
+    	System.out.println("You are in logging for username : "+ username + " and having password : "+ password );
         
     }
 
     @Then("^validate login is successull$")
     public void validate_login_is_successull() throws Throwable {
     	System.out.println("You are in validate login is successull");
+    	driver.quit();
         
     }
 
@@ -42,12 +43,14 @@ public class StepDefination extends Base {
     public void navigating_to_home_page_via_something(String url) throws Throwable {
     	
     	driver.get(url);
+    	System.out.println("navigating to Home page");
         
     }
 
     @And("^after coming to Login Page$")
     public void after_coming_to_login_page() throws Throwable {
     	
+    	System.out.println("before coming to Login Pag");
     	LoginPagePF l = new LoginPagePF(driver);
 		l.getURL();
     	
