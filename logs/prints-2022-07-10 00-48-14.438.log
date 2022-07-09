@@ -1,0 +1,27 @@
+21:53:03.891 [main] INFO  PageObjects.LoginPagePF - got the url
+21:53:03.895 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:53:08.249 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+21:53:08.251 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+21:53:08.339 [main] INFO  PageObjects.AccountCredPF - scrolling
+21:53:11.327 [main] INFO  PageObjects.AccountCredPF - closing the browser
+21:53:12.964 [main] INFO  PageObjects.LoginPagePF - got the url
+21:53:12.965 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+21:53:23.983 [main] INFO  Academy.TestCasepack.Homepage - closed the browser
+00:46:19.991 [main] INFO  PageObjects.LoginPagePF - got the url
+00:46:19.994 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+00:46:23.194 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+00:46:23.207 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+00:46:23.293 [main] INFO  PageObjects.AccountCredPF - scrolling
+00:46:25.344 [main] INFO  PageObjects.AccountCredPF - closing the browser
+00:46:38.791 [main] INFO  PageObjects.LoginPagePF - got the url
+00:46:38.791 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+00:46:41.043 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+00:46:41.044 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+00:46:41.121 [main] INFO  PageObjects.AccountCredPF - scrolling
+00:46:44.409 [main] INFO  PageObjects.AccountCredPF - closing the browser
+00:46:54.557 [main] INFO  PageObjects.LoginPagePF - got the url
+00:46:54.558 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+00:46:57.888 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+00:46:57.889 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
+00:46:57.968 [main] INFO  PageObjects.AccountCredPF - scrolling
+00:46:59.034 [main] INFO  PageObjects.AccountCredPF - closing the browser

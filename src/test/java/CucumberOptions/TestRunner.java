@@ -4,14 +4,20 @@ package cucumberOptions;
 
 
 //import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+//import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+//import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+import io.cucumber.testng.CucumberOptions;
 
 
 
 @CucumberOptions(
 
-		features = "src/test/java/Features", glue = "StepDefinations", stepNotifications = true)
+		features = "src/test/java/Features", 
+		glue = "StepDefinations",
+		publish = true)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
