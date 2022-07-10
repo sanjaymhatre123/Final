@@ -20,13 +20,6 @@
     
 </dependency>
 
-<dependency>
-	<groupId>org.jline</groupId>
-	<artifactId>jline-terminal</artifactId>
-	<version>3.7.1</version>
-</dependency>
-<!-- Thanks for using https://jar-download.com -->
-
       <dependency>
          <groupId>org.hamcrest</groupId>
          <artifactId>hamcrest-core</artifactId>
