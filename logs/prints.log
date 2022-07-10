@@ -1,22 +1,4 @@
-00:48:14.434 [main] INFO  PageObjects.LoginPagePF - got the url
-00:48:14.463 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:48:31.287 [main] INFO  PageObjects.LoginPagePF - got the url
-00:48:31.287 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:48:33.680 [main] INFO  PageObjects.LoginPagePF - clicking on login page
-00:48:33.711 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
-00:48:33.791 [main] INFO  PageObjects.AccountCredPF - scrolling
-00:48:35.226 [main] INFO  PageObjects.AccountCredPF - closing the browser
-00:48:44.377 [main] INFO  PageObjects.LoginPagePF - got the url
-00:48:44.377 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:48:44.698 [main] INFO  PageObjects.LoginPagePF - clicking on login page
-00:48:44.700 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
-00:51:23.172 [main] INFO  PageObjects.LoginPagePF - got the url
-00:51:23.174 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:51:23.458 [main] INFO  PageObjects.LoginPagePF - clicking on login page
-00:51:23.468 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
-00:51:35.651 [main] INFO  PageObjects.LoginPagePF - got the url
-00:51:35.651 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:51:44.777 [main] INFO  PageObjects.LoginPagePF - got the url
-00:51:44.777 [main] INFO  PageObjects.LoginPagePF - navigated to home page
-00:51:47.487 [main] INFO  PageObjects.LoginPagePF - clicking on login page
-00:51:47.488 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
+14:12:59.186 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+14:12:59.193 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
+14:12:59.284 [main] INFO  PageObjects.AccountCredPF - scrolling
+14:13:00.775 [main] INFO  PageObjects.AccountCredPF - closing the browser

@@ -1,0 +1,27 @@
+14:09:24.171 [main] INFO  PageObjects.AccountCredPF - closing the browser
+14:09:36.638 [main] INFO  PageObjects.LoginPagePF - got the url
+14:09:36.638 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+14:09:38.562 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+14:09:38.563 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+14:09:38.642 [main] INFO  PageObjects.AccountCredPF - scrolling
+14:09:40.196 [main] INFO  PageObjects.AccountCredPF - closing the browser
+14:09:52.086 [main] INFO  PageObjects.LoginPagePF - got the url
+14:09:52.086 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+14:09:54.058 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+14:09:54.059 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test1.com
+14:09:54.136 [main] INFO  PageObjects.AccountCredPF - scrolling
+14:09:55.277 [main] INFO  PageObjects.AccountCredPF - closing the browser
+14:12:27.398 [main] INFO  PageObjects.LoginPagePF - got the url
+14:12:27.400 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+14:12:29.520 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+14:12:29.541 [main] INFO  PageObjects.AccountCredPF - sending username and password for :qa@test.com
+14:12:29.637 [main] INFO  PageObjects.AccountCredPF - scrolling
+14:12:30.784 [main] INFO  PageObjects.AccountCredPF - closing the browser
+14:12:41.406 [main] INFO  PageObjects.LoginPagePF - got the url
+14:12:41.406 [main] INFO  PageObjects.LoginPagePF - navigated to home page
+14:12:43.246 [main] INFO  PageObjects.LoginPagePF - clicking on login page
+14:12:43.247 [main] INFO  PageObjects.AccountCredPF - sending username and password for :vin@test.com
+14:12:43.322 [main] INFO  PageObjects.AccountCredPF - scrolling
+14:12:45.334 [main] INFO  PageObjects.AccountCredPF - closing the browser
+14:12:56.607 [main] INFO  PageObjects.LoginPagePF - got the url
+14:12:56.607 [main] INFO  PageObjects.LoginPagePF - navigated to home page
